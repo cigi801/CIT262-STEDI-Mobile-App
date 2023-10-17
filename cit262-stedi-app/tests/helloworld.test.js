@@ -2,6 +2,7 @@ import {sayHello, userName} from '../utils/helloworld.mjs';
 //to use 'assert', must install mocha. npm install mocha
 import assert from 'assert';
 
+// Manual testing
 it("Should say Hello", ()=>{
     const hello = sayHello();
     console.log(hello);
